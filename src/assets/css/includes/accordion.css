@@ -1,0 +1,14 @@
+.accordion-h{position:relative;cursor:pointer;}
+.accordion-h:hover p,
+.accordion-h:hover h3{color:#e0194a;}
+.accordion-h h3{transition:all ease-in-out 0.25s;}
+.accordion-h p{transition:all ease-in-out 0.25s;}
+.accordion-h:after{content:' ';display:block;position:absolute;right:25px;top:10px;height:28px;width:27px;background:url(../../images/icons/icon-arrowup.jpg) no-repeat center;}
+.accordion-h.active:after{background:url(../../images/icons/icon-arrowdown.jpg) no-repeat center;}
+.accordion-h.active p{font-style:italic;}
+.accordion-c{display:none;}
+@media screen and (max-width:700px){
+.accordion-h{height:auto !important;padding-right:70px;margin-bottom:30px !important;}
+.accordion-h h3{margin-bottom:0px;}
+.accordion-h:after{top:0px !important;}
+}

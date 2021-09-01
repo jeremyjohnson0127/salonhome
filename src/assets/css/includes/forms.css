@@ -1,0 +1,24 @@
+.has-success .form-control{border-color:#3c763d !important;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);}
+.has-success .status .load-file{color:#3c763d;}
+.has-success .form-control-feedback{color:#3c763d;}
+.help-block{font-size:15px;display:block;margin-top:0px;margin-bottom:0px;color:#737373;font-weight:300;padding-left:35px;}
+.has-feedback .glyphicon{font-size:20px;margin-top:7px;margin-right:25px;}
+.has-error input.form-control,
+.has-error select.form-control,
+.has-error textarea.form-control{border-color:#a94442;}
+.form-group{overflow:hidden;}
+.form-control{margin-bottom:5px;}
+.control-inputfile{overflow:hidden;padding-top:0px !important;padding-bottom:0px !important;padding-left:0px !important;}
+.control-inputfile .status{top:0px;height:49px;line-height:50px;display:inline-block;}
+.control-inputfile .status .load-file{padding-left:20px;}
+.control-inputfile .button{width:32%;top:0px;height:49px;line-height:49px;display:inline-block;border-right:1px solid #515e73;padding-left:35px;-webkit-transition:all ease-in 0.15s;-moz-transition:all ease-in 0.15s;transition:all ease-in 0.15s;}
+.content-uploader:hover .control-inputfile .button{color:#fff;background:#e0194a;}
+.content-uploader:hover .control-inputfile{transition:all ease-in 0.3s;background:#f3f3f3;}
+.control_file_hide{position:absolute;left:0px;top:0px;width:100%;height:100%;display:block;cursor:pointer;opacity:0;}
+.file_uploader{display:none !important;}
+.has-error .form-control{border-color:#a94442 !important;}
+.content-uploader.has-feedback label~.form-control-feedback{top:0px;}
+@media screen and (max-width:700px){
+.form-control.mob_control{margin-bottom:0px;}
+.form-group button{display:block;margin:0 auto;}
+}
